@@ -1,0 +1,22 @@
+.image-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-box{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    line-height: 380px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img{
+    max-height: 100%;
+    max-width: 100%;
+}

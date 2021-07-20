@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+main{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto !important;
+    padding: 30px 3rem !important;
+}
+
+main > div{
+    margin: 50px 0;
+    padding: 50px 30px 30px;
+    /* border: 1px solid rgb(9, 88, 22); */
+    border: 1px solid #000;
+    position: relative;
+    width: 100%;
+}
+
+main > div > h4{
+    position: absolute;
+    top: -28px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    left: 30px;
+    /* color: rgb(9, 88, 22); */
+    color: rgb(153, 42, 42);
+    font-family: Titillium Web;
+}
+
+.message{
+    display: block;
+}
+
+.image-card{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-card .image{
+    margin-bottom: 10px;
+}
+
+
+
